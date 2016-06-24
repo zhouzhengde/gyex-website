@@ -1,0 +1,146 @@
+.layout-default(layout-default);
+.layout-default(@layout-name) {
+  // north height
+  @north-height : auto;
+  // middle height
+  @west-center-east-height : auto;
+  // left or west width
+  @west-width : 100%;
+  // center width;
+  @center-width: 100%;
+  // east width
+  @east-width: 100%;
+  // south height
+  @south-height : 100%;
+
+  // max width & height value
+  @max-width-height-1 : 200;
+  @max-width-height-2 : 1000;
+  // adjust width & height step value
+  @step-w-h : 50;
+
+  // margin & padding max value
+  @max-margin-padding-1 : 20;
+
+  /**--S ui-layout **/
+  @media only screen and (max-width: 1024px) {
+    body {
+      width: 1024px;
+    }
+  }
+
+/*  @media only screen and (max-height: 768px ) {
+    body {
+      height: 768px;
+    }
+  }*/
+
+  .ui-layout {
+    float: left;
+  }
+
+  .float-left{
+    float: left;
+  }
+
+  .float-right{
+    float: right;
+  }
+
+  .@{layout-name} .ui-layout-north:extend(.ui-layout) {
+    width: 100%;
+    height: @north-height;
+  }
+
+  .@{layout-name} .ui-layout-west:extend(.ui-layout) {
+    width: @west-width;
+    height: @west-center-east-height;
+  }
+
+  .@{layout-name} .ui-layout-center:extend(.ui-layout) {
+    width: @center-width;
+    height: @west-center-east-height;
+  }
+
+  .@{layout-name} .ui-layout-east:extend(.ui-layout) {
+    width: @east-width;
+    height: @west-center-east-height;
+  }
+
+  .@{layout-name} .ui-layout-south:extend(.ui-layout) {
+    width: 100%;
+    height: @south-height;
+  }
+
+  /**--E ui-layout **/
+
+  /**--S margin padding height width **/
+  .generate-width-height-set(@max-width-height-1);
+  .generate-width-height-set(@n, @i : 1) when ( @i <= @n) {
+    .@{layout-name} .w@{i} {
+      width: (@i * 1px);
+    }
+    .@{layout-name} .h@{i} {
+      height: (@i * 1px);
+    }
+    .generate-width-height-set(@n, (@i + 1));
+  }
+
+  .generate-width-height-set2(@max-width-height-2);
+  .generate-width-height-set2(@n, @i : @max-width-height-1) when ( @i <= @n) {
+    .@{layout-name} .w@{i} {
+      width: (@i * 1px);
+    }
+    .@{layout-name} .h@{i} {
+      height: (@i * 1px);
+    }
+    .generate-width-height-set2(@n, (@i + @step-w-h));
+  }
+
+  .generate-width-height-set3(100);
+  .generate-width-height-set3(@n, @i : 1) when ( @i <= @n) {
+    .@{layout-name} .w@{i}p {
+      width: (@i) * 1%;
+    }
+    .@{layout-name} .h@{i}p {
+      height: (@i) * 1%;
+    }
+    .generate-width-height-set3(@n, (@i + 1));
+  }
+
+  .generate-margin-padding-set(@max-margin-padding-1);
+  .generate-margin-padding-set(@n, @i : (-@n + 10)) when (@i <= @n) {
+    .@{layout-name} .pt@{i} {
+      padding-top: (@i * 1px);
+    }
+    .@{layout-name} .pr@{i} {
+      padding-right: (@i * 1px);
+    }
+    .@{layout-name} .pb@{i} {
+      padding-bottom: (@i * 1px);
+    }
+    .@{layout-name} .pl@{i} {
+      padding-left: (@i * 1px);
+    }
+    .@{layout-name} .pl@{i} {
+      padding: (@i * 1px);
+    }
+    .@{layout-name} .mt@{i} {
+      margin-top: (@i * 1px);
+    }
+    .@{layout-name} .mr@{i} {
+      margin-right: (@i * 1px);
+    }
+    .@{layout-name} .mb@{i} {
+      margin-bottom: (@i * 1px);
+    }
+    .@{layout-name} .ml@{i} {
+      margin-left: (@i * 1px);
+    }
+    .@{layout-name} .m@{i} {
+      margin: (@i * 1px);
+    }
+    .generate-margin-padding-set(@n, (@i + 1));
+  }
+  /**--S margin padding height width **/
+}

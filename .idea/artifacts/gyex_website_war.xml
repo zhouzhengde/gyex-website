@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gyex-website:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="website.war">
+      <element id="artifact" artifact-name="gyex-website:war exploded" />
+    </root>
+  </artifact>
+</component>

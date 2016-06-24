@@ -1,0 +1,4 @@
+1465925191011
+(?:[^/]+/)*?[^/]*?
+META-INF/MANIFEST\.MF, META-INF/maven, WEB-INF/classes/[^/]*?\.class, WEB-INF/lib/[^/]*?\.jar
+                        WEB-INF/lib-provided, WEB-INF/web\.xml, error\.html

@@ -1,0 +1,59 @@
+/**--S ui box style **/
+.@{theme-name} .box-container:extend(.ui-layout) {
+  width: 100%;
+  height: auto;
+  padding: @box-spacing;
+}
+
+.@{theme-name} .box-group :extend(.ui-layout) {
+  width: 100%;
+  height: auto;
+  padding: (@box-spacing / 2) 0px;
+}
+
+.@{theme-name} .box :extend(.ui-layout) {
+  border: 1px solid @border-color;
+  border-radius: @box-radius;
+  background: @bg-03;
+}
+
+.@{theme-name} .box-container .box-group:first-child {
+  padding-top: 0px;
+}
+
+.@{theme-name} .box-container .box-group:last-child {
+  padding-bottom: 0px;
+}
+
+.@{theme-name} .box-container .box-group .box:nth-child(even) {
+  margin-left: 1%;
+}
+
+.@{theme-name} .box-container .box-group .box:nth-child(2n + 3) {
+  margin-left: 1%;
+}
+
+/**--E ui box style **/
+/**--S ui input style **/
+.@{theme-name} .input :extend(.ui-layout) {
+
+}
+
+.@{theme-name} .input .input-lbl :extend(.ui-layout) {
+  width: 150px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 2px;
+}
+
+.@{theme-name} .input .input-area :extend(.ui-layout) {
+
+}
+
+.@{theme-name} .input .input-area .default {
+  color: @input-default;
+  border: 1px solid @input-default;
+}
+
+/**--E ui input style **/

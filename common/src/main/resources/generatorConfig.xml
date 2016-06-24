@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright (c) 2016. Bond(China), java freestyle app
+  -->
+
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+    <!-- Class Driver Path -->
+    <classPathEntry location="D:/mysql-connector-java-5.1.38.jar"/>
+
+    <context id="context" targetRuntime="MyBatis3">
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:MySQL://localhost:3306/website"
+                        userId="root" password="root"/>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.gyex.website.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+            <property name="trimStrings" value="true"/>
+            <property name="rootClass" value="com.gyex.website.entity.BaseEntity"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.jfa.data.mapper" targetProject="src/main/resources/mapper">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator targetPackage="mapper" targetProject="src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--用户表-->
+        <table tableName="web_user" domainObjectName="User" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" >
+            <ignoreColumn column="create_date"></ignoreColumn>
+            <ignoreColumn column="update_date"></ignoreColumn>
+            <ignoreColumn column="create_by"></ignoreColumn>
+            <ignoreColumn column="update_by"></ignoreColumn>
+        </table>
+
+        <!--角色表-->
+        <table tableName="web_role" domainObjectName="Role" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" >
+            <ignoreColumn column="create_date"></ignoreColumn>
+            <ignoreColumn column="update_date"></ignoreColumn>
+            <ignoreColumn column="create_by"></ignoreColumn>
+            <ignoreColumn column="update_by"></ignoreColumn>
+        </table>
+
+        <!--用户表-->
+        <table tableName="web_group" domainObjectName="Group" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" >
+            <ignoreColumn column="create_date"></ignoreColumn>
+            <ignoreColumn column="update_date"></ignoreColumn>
+            <ignoreColumn column="create_by"></ignoreColumn>
+            <ignoreColumn column="update_by"></ignoreColumn>
+        </table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,117 @@
+<!--
+  ~ Copyright (c) 2016. Bond(China), java freestyle app
+  -->
+<div class="module send-express pt20">
+    <div class="container ">
+        <div class="form-inline m_bottom_20 clearfix">
+            <div class="form-group">
+                <label class="control-label">用户名</label>
+                <input type="tel" name="username" class="form-control" placeholder="请输入手机号" \>
+            </div>
+            <div class="form-group">
+                <span class="text-muted">请输入手机号，系统将自动注册，如已注册，请登录后下单。</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item-container">
+                    <h5 class="title">寄件方</h5>
+
+                    <div class="form-group form-material">
+                        <label class="control-label">真实姓名</label>
+                        <input type="text" class="form-control" placeholder="请输入姓名">
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">省/市/区</label>
+
+                        <div class="dropdown">
+                            <input type="text" id="sendRegion" data-regionid="sendRegionId"
+                                   class="form-control" placeholder="请输入省市区"
+                                   readonly="readonly">
+                        </div>
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">地址</label>
+                        <input type="text" name="sendAddress" class="form-control" id="sendaddress"
+                               placeholder="请输入详细地址">
+
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">手机</label>
+                        <input type="text" name="sendMobile" class="form-control" placeholder="手机或电话必填一项">
+
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">电话</label>
+                        <input type="text" name="sendPhone" class="form-control" placeholder="如：0755-88888888">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-container">
+                    <h5 class="title">收件方</h5>
+
+                    <div class="form-group form-material">
+                        <label class="control-label">真实姓名</label>
+                        <input type="text" name="receiveName" class="form-control" placeholder="请输入姓名">
+
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">省/市/区</label>
+
+                        <div class="dropdown">
+                            <input type="text" id="receiveRegion"
+                                   data-regionid="receiveRegionId" class="form-control"
+                                   placeholder="请输入省市区" readonly="readonly">
+
+                        </div>
+
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">地址</label>
+                        <input type="text" name="receiveAddress" id="receiveaddress" class="form-control"
+                               placeholder="请输入详细地址">
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">手机</label>
+                        <input type="text" name="receiveMobile" class="form-control" placeholder="手机或电话必填一项">
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">电话</label>
+                        <input type="text" name="receivePhone" class="form-control" placeholder="如：0755-88888888"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-container">
+                    <h5 class="title" style="color: #FF0000;">物品信息</h5>
+
+                    <div class="form-group form-material">
+                        <label class="control-label">备注</label>
+                        <textarea rows="4" name="remark" maxlength="100" class="form-control"
+                                  placeholder="请输入物品的大小详细信息，取件时间要求，便于业务员上门取件！限100字内。"></textarea>
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">物品名称</label>
+                        <input type="text" name="orderProductList[0].name" class="form-control" maxlength="100"
+                               placeholder="请输入物品的名称">
+
+                    </div>
+                    <div class="form-group form-material">
+                        <label class="control-label">货物类型</label>
+                        <select type="text" id="weight" name="goodsType" class="form-control" placeholder="请选择货物类型">
+                            <option value="0">行李</option>
+                            <option value="1">宠物</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pb20 pt20">
+            <div class="col-md-4 col-md-offset-4">
+                <input type="submit" id="saveBtn" value="提交订单" class="btn btn-primary btn-block btn-lg">
+            </div>
+        </div>
+    </div>
+</div>

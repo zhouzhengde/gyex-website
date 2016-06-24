@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="home:war exploded">
+    <output-path>$PROJECT_DIR$/home/target/home</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="home" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jfa-pro:jfa-runner:1.0-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/home/target/home/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="home/web/Web" />
+    </root>
+  </artifact>
+</component>

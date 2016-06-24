@@ -1,0 +1,41 @@
+<nav class="top-nav  ">
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="nav navbar-nav float-right ">
+                <li ng-click="doLoginOrRegister('#/user/register');"><a href="#/user/login">登录</a></li>
+                <li class="none-margin none-padding"><a>&nbsp|&nbsp;</a></li>
+                <li ng-click="doLoginOrRegister('#/user/register');"><a href="#/user/register">注册&nbsp;&nbsp;</a></li>
+                <li><a class="none-margin none-padding"><img src="images/icon/in.png"/></a></li>
+                <li><a class="none-margin none-padding"><img src="images/icon/weibo.png"/></a></li>
+                <li><a class="none-margin none-padding"><img src="images/icon/wechat.png"/></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container" id="main-menu">
+    <div class="col-md-5">
+        <a class="logo" href="#/home" style="text-decoration: blink;" alt="首页" title="首页">
+            <div class="h80">
+                <span style="font-family: Aharoni;font-size: 60px;font-style: italic;">GY</span>
+                <span style="font-family: Aharoni;font-size: 16px;font-style: italic;color:#ff0000;">EXPRESS</span>
+                <!--GY国运速递-->
+            </div>
+        </a>
+    </div>
+    <div class="col-md-7">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav float-right">
+                    <li role="presentation"><a href="#/home">首页</a></li>
+                    <li role="presentation"><a href="#/send-express">寄快递</a></li>
+                    <li role="presentation"><a href="#/search">投诉与建议</a></li>
+                    <li role="presentation"><a href="#/aboutus">关于我们</a></li>
+                    <li role="presentation" data-toggle="#/user/"><a href="#/user/center">用户中心</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+

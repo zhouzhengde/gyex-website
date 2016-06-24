@@ -1,0 +1,206 @@
+/*
+ * Copyright (c) 2015. Bond(China), java freestyle app
+ */
+
+body {
+    background: #d3d3d3;
+}
+
+.module {
+    background: #FFFFFF;
+}
+
+.none-margin {
+    margin: 0px !important;
+}
+
+.none-padding {
+    padding: 0px !important;
+}
+
+.align-center {
+    margin: 0px auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.header {
+    /* background: #FFFFFF;*/
+}
+
+.footer {
+    background-color: #272727;
+    /*background: linear-gradient(#3d3d3d, #111111); */
+    min-height: 250px;
+    color: #ffffff;
+}
+
+/*--S slide --*/
+.carousel-inner .item .item-container {
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px !important;
+}
+
+/*--E slide --*/
+
+/*--S  hot box--*/
+.hot-top {
+    padding: 10px 0px;
+    /* background: #FFFFFF;*/
+}
+
+.box {
+    background: #FFFFFF;
+    padding: 0px 0px;
+}
+
+.box > div {
+
+    /*background: #FFD6B3;*/
+    height: 300px;
+    /* border: 1px solid #f9f2f4;
+     box-shadow: 0px 0px 1px 1px #e3e3e3;*/
+}
+
+.hot-top > div:first-child {
+    padding-right: 0px;
+}
+
+.hot-top > div:last-child {
+    padding-left: 0px;
+}
+
+.hot-top .box:first-child {
+    padding: 10px 0px;
+}
+
+.hot-top .left-item .box > div {
+    border-right: 1px solid #FBA4A4;
+}
+
+/*--E  hot box--*/
+
+/*--S top-nav --*/
+.top-nav {
+    height: 40px;
+    background: #333333; /*#424B50;*/
+    background: linear-gradient(#3d3d3d, #111111); /*#424B50;*/
+}
+
+.top-nav .navbar-nav > li {
+    margin: 0px 5px;
+}
+
+.top-nav .navbar-nav > li > a {
+    color: #d3d3d3;
+    font-weight: 300 !important;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+
+/*--E top-nav --*/
+
+/*--S service-float --*/
+
+@keyframes index-phone-frame {
+
+    0% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+    30% {
+        transform: rotate(5deg) translateX(7px) translateY(-7px);
+    }
+    45% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+    75% {
+        transform: rotate(-5deg) translateX(-10px) translateY(-12px);
+    }
+    100% {
+        transform: rotate(0deg) translateX(0px) translateY(0px);
+    }
+}
+
+.service-float {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(79, 79, 79, 0.5) none repeat scroll !important;
+    background: rgb(79, 79, 79);
+    filter: alpha(opacity=50);
+}
+
+.service-float .nav li {
+    float: left;
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll !important;
+    background: rgb(0, 0, 0);
+    filter: alpha(opacity=40);
+}
+
+.service-float .nav > li:first-child > i {
+    /* transform: rotate(135deg) translateX(5px);*/
+}
+
+.service-float .nav > li:last-child {
+    border-right: none;
+}
+
+.service-float .nav > li > i {
+    width: 100%;
+    height: 80px;
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.service-float .nav > li:hover > i {
+    color: #FF0000 !important;
+}
+
+.service-float .nav > li.online-service:hover > i {
+    animation: index-phone-frame 0.8s;
+}
+
+.service-float .nav > li > span {
+    width: 100%;
+    height: 20px;
+    color: #FFFFFF !important;
+}
+
+.service-float .nav > li.item-content {
+
+    background: #424B50 none repeat scroll !important;
+}
+
+/*--E service-float --*/
+
+/*--S send express  --*/
+.send-express .item-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 426px;
+}
+
+.send-express {
+    padding-bottom: 150px;
+}
+
+.send-express H5 {
+    font-size: 16px;
+    text-align: center;
+}
+
+/*--E send express  --*/
