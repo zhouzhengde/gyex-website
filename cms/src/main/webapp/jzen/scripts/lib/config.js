@@ -30,14 +30,13 @@ require.config({
         'angular': 'angular/angular',
         "bootstrap": 'bootstrap/js/bootstrap.min',
         "flatui": 'flatui/js/flat-ui.min',
-        "JSXTransformer": 'react/JSXTransformer',
-        'react': 'react/react-with-addons.min',
         'jsPlumb': 'jsPlumb/jsPlumb-2.0.4',
         'jquery': 'jquery/jquery-2.1.4',
         'icheck': 'jquery/icheck/icheck',
         'validator': 'jquery/validator/jquery.validationEngine',
         'validator-en': 'jquery/validator/languages/jquery.validationEngine-en',
         'validator-zh_CN': 'jquery/validator/languages/jquery.validationEngine-zh_CN',
+        'treeview': 'jquery/treeview/js/bootstrap-treeview',
         'raphael': 'raphael/raphael-min',
         'underscore': 'util/underscore',
         'control': 'util/control',
@@ -45,12 +44,11 @@ require.config({
         'view': 'util/view',
         'util': 'util/util',
         'style': 'util/style-adjust',
-        'jsx': 'react/jsx',
-        'text': 'react/text',
         'root': '../../../js',
         'app': '../../../js/.md',
         'module': '../../../module',
-        'lib': '../../../jzen/scripts/lib'
+        'lib': '../../../jzen/scripts/lib',
+        'ui': '../../../jzen/scripts/lib/angular-ui'
     },
     jsx: {
         fileExtension: '.jsx',
@@ -59,7 +57,8 @@ require.config({
     },
     map: {
         '*': {
-            'css': 'css'
+            'css': 'css',
+            'text': 'text'
         }
     },
     shim: {
@@ -70,6 +69,7 @@ require.config({
                 //'css!../lib/flatui/css/mixins',
                 'css!../../../css/common',
                 'css!../../../css/function',
+                'style',
                 'jquery',
                 'bootstrap'
             ]
@@ -77,7 +77,7 @@ require.config({
         'bootstrap': {
             'deps': [
                 'jquery',
-                //'style',
+                'style',
                 'css!../lib/bootstrap/css/bootstrap.min',
                 //'css!../lib/flatui/css/mixins',
                 'css!../../../css/common',
@@ -104,6 +104,13 @@ require.config({
         'validator-zh_CN': {
             'deps': [
                 'jquery'
+            ]
+        },
+        'treeview': {
+            deps: [
+                'jquery',
+                'bootstrap'//,
+                //'css!../lib/jquery/treeview/css/bootstrap-treeview'
             ]
         },
         'angular': {
@@ -163,10 +170,23 @@ require.config({
     global.Consts.getAppJsPath = function (js) {
         return global.appPath + '/js/' + js;
     };
+
+    global.ObjectUtils = {};
+    global.ObjectUtils.merge = function (dst, src, iscover) {
+        for (var attr in src) {
+            if (!dst[attr]) {
+                dst[attr] = src[attr];
+            }
+            if (iscover) {
+                dst[attr] = src[attr];
+            }
+        }
+        return dst;
+    }
 })(window.top);
 
 /**
- * Created by Admin on 2015/11/21.
+ * Created by Bond(China) on 2015/11/21.
  * bootstraps angular onto the window.document node
  */
 define([
@@ -177,14 +197,15 @@ define([
     'angular-route',
     'angular-resource',
     '!root/.cnf',
-    'app'
-], function (require, ng, $, _, ngRoute, ngResource, cnf, app) {
+    '!ui/.cnf'
+], function (require, ng, $, _, ngRoute, ngResource, cnf, uiCnf) {
     'use strict';
 
     $(function () {
 
         var mds = ['app'];
         var cnfs = [];
+        ng.copy(uiCnf, cnfs);
 
         _.each(cnf, function (md) {
             mds.push(md.name);

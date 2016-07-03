@@ -15,7 +15,13 @@ define(['jquery'], function ($) {
         };
 
         $(window).bind('resize', function () {
+            /* if(window.devicePixelRatio < 1 && window.devicePixelRatio > 0.75){*/
+            //setTimeout(function(){
+            Ratio.record();
             adjust();
+            //  }, 100);
+
+            //}
         });
 
         $(function () {
@@ -35,7 +41,7 @@ define(['jquery'], function ($) {
                 temp = getChildrensHeight('.ui-layout-east');
                 content = content > temp ? content : temp;
 
-                var doc_height = $(document).height() - getSiblingsHeight('.ui-layout-west', ['ui-layout-center', 'ui-layout-east']);
+                var doc_height = $(document).height() - getSiblingsHeight('.ui-layout-west', ['ui-layout-center', 'ui-layout-east']) - 5 * window.devicePixelRatio;
                 var west = $(".ui-layout-west").height();
                 var center = $(".ui-layout-center").height();
                 var east = $(".ui-layout-east").height();
@@ -48,13 +54,17 @@ define(['jquery'], function ($) {
                     max = content;
                 }
 
+                if (window.devicePixelRatio > 1.25 || Ratio.isUp()) {
+                    max = $(window).height();
+                    max = max < 768 ? 768 : max;
+                }
                 if (max) {
                     $(".ui-layout-west").css({height: max + 'px'});
                     $(".ui-layout-center").css({height: max + 'px'});
                     $(".ui-layout-east").css({height: max + 'px'});
-                    $(".ui-layout-west").parent().css({height: max + 'px'});
+                    $(".ui-layout-center > .content").css({height: ( max - $(".ui-layout-south").height() - 5 ) + 'px'});
                 }
-            }, 2);
+            }, 1);
         }
 
         function isExcl(dom, excludes) {

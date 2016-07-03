@@ -77,11 +77,16 @@
 // -------------------------
 .input-group-btn {
   .btn {
-    background-color: @inverse;
-    border: 2px solid @gray-light;
-    color: @gray-light;
+    background-color: @group-input-btn-border;//@inverse;
+    border: 1px solid lighten(@group-input-btn-border, 10%);//@gray-light;
+    color: #FFFFFF;//@gray-light;
     line-height: 18px;
     height: 42px;
+
+    &:hover,{
+     background-color: darken(@group-input-btn-border, 20%);
+      border: 1px solid darken(@group-input-btn-border, 20%);
+    }
   }
   .btn-default {
     .button-variant(@btn-default-color, @gray-light, @btn-hover-bg, @btn-active-bg);

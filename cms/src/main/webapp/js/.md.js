@@ -5,18 +5,37 @@
 define([
     'angular',
     'jquery',
-    'angular-route'
-], function (ng, $) {
+    'angular-route',
+    '/js/menu.js'
+], function (ng, $, route, menuList) {
     'use strict';
 
-    return ng.module('app', ['ngRoute']).controller('HeaderCtrl', ['$scope', function($scope){
+    var listMenu = {};
 
-        // bind nav alt style
-        $(".nav.navbar-nav > li").bind('click', function(){
-            $(this).addClass('active').siblings().removeClass('active');
+    return ng.module('app', ['ngRoute', 'angular-ui'])
+
+        .controller('MenuCtrl', ['$scope', '$location', function ($scope, $location) {
+
+            /*菜单*/
+            $scope.menuConf = {
+                animateTime: 500,
+                data: menuList,
+                init: function(_listMenu){
+                    // 保存菜单对象
+                    listMenu = _listMenu;
+                }
+            };
+
+        }]).controller('HeaderCtrl', ['$scope', function ($scope) {
+
+        }]).controller('FooterCtrl', ['$scope', function ($scope) {
+
+        }]).run(function ($rootScope) {
+            $rootScope.$on('$routeChangeStart', function (event, current, previous) {
+
+                if($.isFunction(listMenu.$path) && current.$$route.originalPath) {
+                    listMenu.$path("#" + current.$$route.originalPath);
+                }
+            });
         });
-
-    }]).controller('FooterCtrl', ['$scope', function($scope){
-
-    }]);
 });

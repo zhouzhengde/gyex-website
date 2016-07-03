@@ -7,16 +7,20 @@ define(['app'], function (app) {
 
     return [
         {
-            name: 'aboutus',
-            path: '!module/aboutus'
+            name: 'system',
+            path: '!module/system'
         },
         {
-            name: 'home',
-            path: '!module/home'
-        },
-        {
-            name: 'support',
-            path: '!module/support'
-        }
+            name: 'welcome',
+            path: '!module/welcome'
+        }/*,
+         {
+         name: 'content-mgt',
+         path: '!module/content'
+         },
+         {
+         name: 'log-mgt',
+         path: '!module/log'
+         }*/
     ];
 });
