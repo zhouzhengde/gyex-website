@@ -1,0 +1,67 @@
+<div class="modal-header">
+    <h3><i class="glyphicon glyphicon-th"></i>&nbsp;添加用户</h3>
+</div>
+<div class="modal-body float-left">
+    <div class="add-container col-md-12">
+        <div class="input-area col-md-12">
+            <div class="form-group form-material col-md-12">
+                <div class="control-label">
+                    <label>用户名：</label>
+                </div>
+                <div class="control-input">
+                    <input type="text" ng-model="user.username" class="form-control" name="username" placeholder="请输入用户名">
+                </div>
+            </div>
+            <div class="form-group form-material col-md-12">
+                <div class="control-label">
+                    <label>真实姓名：</label>
+                </div>
+                <div class="control-input">
+                    <input type="text"  ng-model="user.realname"  class="form-control" name="realname" placeholder="请输入真实姓名">
+                </div>
+            </div>
+            <div class="form-group form-material col-md-12">
+                <div class="control-label">
+                    <label>密码：</label>
+                </div>
+                <div class="control-input">
+                    <input type="password"  ng-model="user.password"  class="form-control" name="realname" placeholder="请输入密码">
+                </div>
+            </div>
+            <div class="form-group form-material col-md-12">
+                <div class="control-label">
+                    <label>确认密码：</label>
+                </div>
+                <div class="control-input">
+                    <input type="password" ng-model="user.password" class="form-control" name="realname" placeholder="确认密码">
+                </div>
+            </div>
+            <div class="form-group form-material col-md-12">
+                <div class="control-label">
+                    <label>性别：</label>
+                </div>
+                <div class="control-input btn-group btn-group-gender">
+                    <label class="btn btn-default" ng-model="user.gender" uib-btn-radio="0">男</label>
+                    <label class="btn btn-default" ng-model="user.gender" uib-btn-radio="1">女</label>
+                </div>
+            </div>
+            <!-- <div class="form-group form-material col-md-12">
+                 <div class="control-label">
+                     <label>所属分组：</label>
+                 </div>
+                 <div class="control-input">
+                     <select class="form-control">
+                         <option>普通客户</option>
+                         <option>VIP客户</option>
+                         <option>内容管理员</option>
+                         <option>系统管理员</option>
+                     </select>
+                 </div>
+             </div>-->
+        </div>
+    </div>
+</div>
+<div class="modal-footer text-align-center">
+    <button class="btn btn-primary" ng-click="save()">保存</button>
+    <button class="btn btn-warning" ng-click="close()">取消</button>
+</div>

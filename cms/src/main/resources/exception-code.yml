@@ -1,0 +1,20 @@
+codeSet:
+  system:
+    error:
+      code: 0000_0000_0000
+      message: 系统错误
+  userInfo:
+    add:
+      illegalArg:
+        code: 1000_1000_1000
+        message: 不是有效的用户信息参数
+      nonePermission:
+        code: 1000_1000_1002
+        message: 非常访问或操作用户信息，没有权限
+    delete:
+      illegalArg:
+        code: 1000_1000_1001
+        message: 需要删除的用户信息不正确
+      nonePermission:
+        code: 1000_1000_1003
+        message: 非常访问或操作用户信息，没有权限

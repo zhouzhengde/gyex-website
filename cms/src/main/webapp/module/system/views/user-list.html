@@ -1,4 +1,80 @@
-<div>
+<div class="list-container col-md-12">
+    <div class="list-frame">
+        <div class="list-title">
+            <h3><i class="glyphicon glyphicon-th"></i>&nbsp;用户列表</h3>
+        </div>
+        <div class="input-area col-md-12">
+            <div class="form-group form-material col-md-3">
+                <div class="control-label">
+                    <label>用户名：</label>
+                </div>
+                <div class="control-input">
+                    <input type="text" class="form-control" ng-model="pager.condition.username"
+                           placeholder="请输入用户名，‘%’支持更多">
+                </div>
+            </div>
+            <div class="form-group form-material col-md-3">
+                <div class="control-label">
+                    <label>真实姓名：</label>
+                </div>
+                <div class="control-input">
+                    <input type="text" class="form-control" ng-model="pager.condition.realname"
+                           placeholder="请输入真实姓名，‘%’支持更多匹配">
+                </div>
+            </div>
+            <div class="form-group form-material col-md-2">
+                <button ng-click="reload(pager, 1);" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i>&nbsp;查询
+                </button>
+            </div>
+        </div>
+        <div class="opt-panel col-md-12">
+            <button class="btn btn-default" ng-click="doAddUserDialog();"><i class="glyphicon glyphicon-plus"></i>&nbsp;添加
+            </button>
+            <!--<button class="btn btn-default"><i class="glyphicon glyphicon-edit"></i>&nbsp;修改</button>-->
+            <button class="btn btn-default" ng-click="doBatchDel();"><i class="glyphicon glyphicon-trash"></i>&nbsp;删除
+            </button>
+            <button class="btn btn-default" ng-click="reload();"><i class="glyphicon glyphicon-refresh"></i>&nbsp;刷新
+            </button>
+        </div>
+        <div class="list-table">
+            <div class="tab">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" ng-checked="globalChecked"
+                                   ng-click="doCheckAll();">
+                        </th>
+                        <th>序号</th>
+                        <th>用户名</th>
+                        <th>真实姓名</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="user in pager.result">
+                        <td width="5%">
+                            <input type="checkbox" ng-model="user.checked">
+                        </td>
+                        <td width="5%" ng-bind="$index + 1">
+                        </td>
+                        <td width="35%" ng-bind="user.username">
+                        </td>
+                        <td ng-bind="user.realname">
+                        </td>
+                        <td width="20%">
+                            <a href="" ng-click="doViewDetail(user);">查看详细</a>
+                            &nbsp;
+                            <a href="" ng-click="doEdit(user);">编辑</a>
+                            &nbsp;
+                            <a href="" ng-click="doDel(user);">删除</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div pagination ng-pager="pager" ng-callback="reload(pager);"></div>
 
-    User list!
+        </div>
+    </div>
 </div>

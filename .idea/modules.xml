@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyex-website.iml" filepath="$PROJECT_DIR$/gyex-website.iml" />
       <module fileurl="file://$PROJECT_DIR$/home/home.iml" filepath="$PROJECT_DIR$/home/home.iml" />
-      <module fileurl="file://$PROJECT_DIR$/m/m.iml" filepath="$PROJECT_DIR$/m/m.iml" />
     </modules>
   </component>
 </project>

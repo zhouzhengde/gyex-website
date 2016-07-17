@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="allowReplaceKeyword" value="${copyright}" />
+    <option name="myName" value="copyright" />
+    <option name="notice" value="Copyright (c) &amp;#36;today.year. Bond(China) OpenSource." />
+  </copyright>
+</component>

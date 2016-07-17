@@ -5,6 +5,8 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file url="file://$PROJECT_DIR$/cms/overlays" />
+    <file url="file://$PROJECT_DIR$/cms/overlays" />
+    <file url="file://$PROJECT_DIR$/cms/overlays" />
     <file url="file://$PROJECT_DIR$/home/overlays" />
     <file url="file://$PROJECT_DIR$/overlays" />
     <file type="web" url="file://$PROJECT_DIR$" />
@@ -14,11 +16,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/pm/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">

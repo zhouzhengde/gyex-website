@@ -24,6 +24,11 @@
     border-radius: @pagination-border-radius;
   }
 
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
   li {
     display: inline-block;
     margin-right: -2px;
@@ -132,6 +137,7 @@
         z-index: 10;
         border-radius: 0 @pagination-border-radius @pagination-border-radius 0;
       }
+
       &.previous {
         left: 0;
         right: auto;
@@ -145,16 +151,24 @@
       display: inline-block;
       background: transparent;
       border: none;
-      border-left: 2px solid mix(@pagination-bg, white, 66%);
+      /*border-left: 2px solid mix(@pagination-bg, white, 66%);*/
       color: @inverse;
       font-size: ceil((@component-font-size-base * 0.933)); // ~14px
-      line-height: 16px;
-      min-height: 41px;
+      line-height: 24px;
+      /* min-height: 41px;*/
       min-width: 41px;
       outline: none;
-      padding: 12px 10px;
+      padding: 8px 10px;
       text-align: center;
       transition: .25s ease-out;
+      top: 0px;
+      cursor: pointer;
+
+      > input {
+        height: 24px;
+        border: 1px solid @pagination-bg;
+        color: #666;
+      }
 
       &:hover,
       &:focus {
@@ -209,13 +223,27 @@
           border-bottom: 2px solid mix(@pagination-bg, white, 80%);
           border-radius: @pagination-border-radius 0 0;
 
-          &.btn-primary { border-bottom-color: mix(@brand-secondary, white, 80%); }
-          &.btn-danger  { border-bottom-color: mix(@brand-danger, white, 80%); }
-          &.btn-warning { border-bottom-color: mix(@brand-warning, white, 80%); }
-          &.btn-success { border-bottom-color: mix(@brand-success, white, 80%); }
-          &.btn-info    { border-bottom-color: mix(@brand-info, white, 80%); }
-          &.btn-inverse { border-bottom-color: mix(@brand-primary, white, 80%); }
-          > [class*="fui"] { margin-left: -20px; }
+          &.btn-primary {
+            border-bottom-color: mix(@brand-secondary, white, 80%);
+          }
+          &.btn-danger {
+            border-bottom-color: mix(@brand-danger, white, 80%);
+          }
+          &.btn-warning {
+            border-bottom-color: mix(@brand-warning, white, 80%);
+          }
+          &.btn-success {
+            border-bottom-color: mix(@brand-success, white, 80%);
+          }
+          &.btn-info {
+            border-bottom-color: mix(@brand-info, white, 80%);
+          }
+          &.btn-inverse {
+            border-bottom-color: mix(@brand-primary, white, 80%);
+          }
+          > [class*="fui"] {
+            margin-left: -20px;
+          }
         }
         & + ul {
           padding: 0;
@@ -229,13 +257,27 @@
           top: 0;
           border-radius: 0 @pagination-border-radius 0 0;
 
-          &.btn-primary { border-bottom-color: mix(@brand-secondary, white, 80%); }
-          &.btn-danger  { border-bottom-color: mix(@brand-danger, white, 80%); }
-          &.btn-warning { border-bottom-color: mix(@brand-warning, white, 80%); }
-          &.btn-success { border-bottom-color: mix(@brand-success, white, 80%); }
-          &.btn-info    { border-bottom-color: mix(@brand-info, white, 80%); }
-          &.btn-inverse { border-bottom-color: mix(@brand-primary, white, 80%); }
-          > [class*="fui"] { margin-right: -20px; }
+          &.btn-primary {
+            border-bottom-color: mix(@brand-secondary, white, 80%);
+          }
+          &.btn-danger {
+            border-bottom-color: mix(@brand-danger, white, 80%);
+          }
+          &.btn-warning {
+            border-bottom-color: mix(@brand-warning, white, 80%);
+          }
+          &.btn-success {
+            border-bottom-color: mix(@brand-success, white, 80%);
+          }
+          &.btn-info {
+            border-bottom-color: mix(@brand-info, white, 80%);
+          }
+          &.btn-inverse {
+            border-bottom-color: mix(@brand-primary, white, 80%);
+          }
+          > [class*="fui"] {
+            margin-right: -20px;
+          }
         }
       }
 
@@ -254,11 +296,25 @@
 
 // Alternate Colors
 // --------------------------------------------------
-.pagination-danger  { .pagination-variant(@brand-danger, @btn-danger-hover-bg, @btn-danger-active-bg); }
-.pagination-success { .pagination-variant(@brand-success, @btn-success-hover-bg, @btn-success-active-bg); }
-.pagination-warning { .pagination-variant(@brand-warning, @btn-warning-hover-bg, @btn-warning-active-bg); }
-.pagination-info    { .pagination-variant(@brand-info, @btn-info-hover-bg, @btn-info-active-bg); }
-.pagination-inverse { .pagination-variant(@brand-primary, @btn-inverse-hover-bg, @btn-inverse-active-bg); }
+.pagination-danger {
+  .pagination-variant(@brand-danger, @btn-danger-hover-bg, @btn-danger-active-bg);
+}
+
+.pagination-success {
+  .pagination-variant(@brand-success, @btn-success-hover-bg, @btn-success-active-bg);
+}
+
+.pagination-warning {
+  .pagination-variant(@brand-warning, @btn-warning-hover-bg, @btn-warning-active-bg);
+}
+
+.pagination-info {
+  .pagination-variant(@brand-info, @btn-info-hover-bg, @btn-info-active-bg);
+}
+
+.pagination-inverse {
+  .pagination-variant(@brand-primary, @btn-inverse-hover-bg, @btn-inverse-active-bg);
+}
 
 // Ultra minimal pagination
 // --------------------------------------------------
@@ -458,5 +514,24 @@
 
   &.dropup {
     position: relative;
+  }
+}
+
+.pagination.tips {
+  background: transparent;
+  ul {
+    border: none;
+    background: transparent;
+    li {
+      background: transparent;
+      span {
+        padding-left: 0px;
+        color: #3d3d3d;
+        background: transparent; //@pagination-bg;
+        &:hover {
+          background: transparent; //@pagination-bg;
+        }
+      }
+    }
   }
 }

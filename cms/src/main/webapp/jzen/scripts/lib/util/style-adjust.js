@@ -62,7 +62,7 @@ define(['jquery'], function ($) {
                     $(".ui-layout-west").css({height: max + 'px'});
                     $(".ui-layout-center").css({height: max + 'px'});
                     $(".ui-layout-east").css({height: max + 'px'});
-                    $(".ui-layout-center > .content").css({height: ( max - $(".ui-layout-south").height() - 5 ) + 'px'});
+                    $(".ui-layout-center > .content").css({height: ( max - $(".ui-layout-south").height() * 2 - 10 ) + 'px'});
                 }
             }, 1);
         }

@@ -29,15 +29,15 @@ require.config({
         'angular-mock': 'angular/angular-mock',
         'angular': 'angular/angular',
         "bootstrap": 'bootstrap/js/bootstrap.min',
+        "bootstrap-table": 'jquery/bootstrap-table/bootstrap-table',
+        "jquery-bootstrap": 'jquery/jquery.bootstrap.min',
+        "ui-bootstrap": 'angular/uibootstrap/ui-bootstrap-tpls',
         "flatui": 'flatui/js/flat-ui.min',
-        'jsPlumb': 'jsPlumb/jsPlumb-2.0.4',
         'jquery': 'jquery/jquery-2.1.4',
-        'icheck': 'jquery/icheck/icheck',
         'validator': 'jquery/validator/jquery.validationEngine',
         'validator-en': 'jquery/validator/languages/jquery.validationEngine-en',
         'validator-zh_CN': 'jquery/validator/languages/jquery.validationEngine-zh_CN',
         'treeview': 'jquery/treeview/js/bootstrap-treeview',
-        'raphael': 'raphael/raphael-min',
         'underscore': 'util/underscore',
         'control': 'util/control',
         'model': 'util/model',
@@ -64,30 +64,48 @@ require.config({
     shim: {
         'flatui': {
             'deps': [
-                'css!../lib/bootstrap/css/bootstrap.min',
+                'bootstrap',
+                'css!../lib/bootstrap/css/bootstrap',
                 'css!../lib/flatui/css/flat-ui',
-                //'css!../lib/flatui/css/mixins',
                 'css!../../../css/common',
                 'css!../../../css/function',
                 'style',
                 'jquery',
-                'bootstrap'
+                'jquery-bootstrap',
+                'bootstrap-table'
             ]
         },
         'bootstrap': {
             'deps': [
                 'jquery',
                 'style',
-                'css!../lib/bootstrap/css/bootstrap.min',
-                //'css!../lib/flatui/css/mixins',
+               /* 'css!../lib/bootstrap/css/bootstrap',*/
+                'css!../lib/jquery/bootstrap-table/bootstrap-table',
                 'css!../../../css/common',
-                'css!../../../css/function',
+                'css!../../../css/function'
             ]
         },
-        'icheck': {
-            'deps': [
+        'bootstrap-table': {
+            "deps": [
                 'jquery',
-                'css!../lib/jquery/icheck/skins/all'
+                'bootstrap'
+            ]
+        },
+        'jquery-bootstrap': {
+            "deps": [
+                'jquery',
+                'bootstrap'
+            ]
+        },
+        'ui-bootstrap': {
+            "deps": [
+                'css!../lib/angular/uibootstrap/ui-bootstrap-csp',
+                'jquery',
+                'bootstrap',
+                'angular',
+                'angular-animate',
+                'angular-touch',
+                'angular-route'
             ]
         },
         'validator': {

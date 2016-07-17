@@ -7,6 +7,7 @@ define(function () {
 
     return [
         '!ui/treeview/directive',
-        '!ui/listmenu/directive'
+        '!ui/listmenu/directive',
+        '!ui/pagination/directive'
     ];
 });

@@ -30,36 +30,64 @@
             <property name="rootClass" value="com.gyex.website.entity.BaseEntity"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="com.jfa.data.mapper" targetProject="src/main/resources/mapper">
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator targetPackage="mapper" targetProject="src/main/java" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="com.gyex.website.mapper" targetProject="src/main/java" type="XMLMAPPER">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
         <!--用户表-->
-        <table tableName="web_user" domainObjectName="User" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" >
-            <ignoreColumn column="create_date"></ignoreColumn>
-            <ignoreColumn column="update_date"></ignoreColumn>
-            <ignoreColumn column="create_by"></ignoreColumn>
-            <ignoreColumn column="update_by"></ignoreColumn>
+        <table tableName="web_user" domainObjectName="User" enableCountByExample="false" enableSelectByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false">
         </table>
 
         <!--角色表-->
-        <table tableName="web_role" domainObjectName="Role" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" >
-            <ignoreColumn column="create_date"></ignoreColumn>
-            <ignoreColumn column="update_date"></ignoreColumn>
-            <ignoreColumn column="create_by"></ignoreColumn>
-            <ignoreColumn column="update_by"></ignoreColumn>
+        <table tableName="web_role" domainObjectName="Role" enableCountByExample="false" enableSelectByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false">
         </table>
 
         <!--用户表-->
-        <table tableName="web_group" domainObjectName="Group" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" >
-            <ignoreColumn column="create_date"></ignoreColumn>
-            <ignoreColumn column="update_date"></ignoreColumn>
-            <ignoreColumn column="create_by"></ignoreColumn>
-            <ignoreColumn column="update_by"></ignoreColumn>
+        <table tableName="web_group" domainObjectName="Group" enableCountByExample="false" enableSelectByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false">
         </table>
+
+        <table tableName="web_content" domainObjectName="Content" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_function" domainObjectName="Function" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_group_role" domainObjectName="GroupRole" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_menu" domainObjectName="Menu" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_product" domainObjectName="Product" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_resource" domainObjectName="Resource" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_role_menu" domainObjectName="RoleMenu" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_role_resource_func" domainObjectName="RoleResourceFunc" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
+        <table tableName="web_user_group" domainObjectName="UserGroup" enableCountByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false">
+        </table>
+
     </context>
 </generatorConfiguration>

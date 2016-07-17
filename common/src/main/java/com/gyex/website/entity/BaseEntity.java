@@ -10,45 +10,35 @@ import java.util.Date;
 /**
  * Base Entity for commonly attributes
  */
-public class BaseEntity implements Serializable{
+public class BaseEntity implements Serializable {
 
-    private Date createDate;
+    private int startIndex;
 
-    private Date updateDate;
+    /*private int endIndex;*/
 
-    private String createBy;
+    private int pageSize;
 
-    private String updateBy;
-
-    public Date getCreateDate() {
-        return createDate;
+    public int getPageSize() {
+        return pageSize;
     }
 
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
-    public Date getUpdateDate() {
-        return updateDate;
+    public int getStartIndex() {
+        return startIndex;
     }
 
-    public void setUpdateDate(Date updateDate) {
-        this.updateDate = updateDate;
+    public void setStartIndex(int startIndex) {
+        this.startIndex = startIndex;
     }
 
-    public String getCreateBy() {
-        return createBy;
+    /*public int getEndIndex() {
+        return endIndex;
     }
 
-    public void setCreateBy(String createBy) {
-        this.createBy = createBy;
-    }
-
-    public String getUpdateBy() {
-        return updateBy;
-    }
-
-    public void setUpdateBy(String updateBy) {
-        this.updateBy = updateBy;
-    }
+    public void setEndIndex(int endIndex) {
+        this.endIndex = endIndex;
+    }*/
 }

@@ -9,25 +9,29 @@ define([
     'underscore'
 ], function (md, ng, $, _) {
 
-    md.factory('HomeResource', ['$resource', function ($resource) {
+    md.factory('UserResource', ['$resource', function ($resource) {
 
         return $resource('', {}, {
-            query: {
-                url: 'category/:id',
+            get: {
+                url: 'user/:id',
                 method: 'get',
                 isArray: true
             },
             add: {
-                url: 'category/:id',
+                url: 'user/:id',
                 method: 'post'
             },
             update: {
-                url: 'category/:id',
+                url: 'user',
                 method: 'put'
             },
             delete: {
-                url: 'category/:id',
+                url: 'user/:id',
                 method: 'delete'
+            },
+            list: {
+                url: 'user/list',
+                method: 'post'
             }
         });
     }]);

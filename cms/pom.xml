@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>website</artifactId>
@@ -11,18 +11,19 @@
     <name>cms Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+
         <dependency>
-            <groupId>jfa-pro</groupId>
-            <artifactId>jfa-runner</artifactId>
-            <version>${jfa.version}</version>
+            <groupId>com.gyex</groupId>
+            <artifactId>common</artifactId>
+            <version>${version}</version>
             <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>jfa-pro</groupId>
-            <artifactId>jfa-web</artifactId>
+            <artifactId>jfa-runner</artifactId>
             <version>${jfa.version}</version>
-            <type>war</type>
+            <type>jar</type>
         </dependency>
     </dependencies>
     <build>
@@ -33,7 +34,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
                 <configuration>
-                    <mainClass>${start.class}</mainClass>
+                    <mainClass>${website.start.class}</mainClass>
                     <layout>WAR</layout>
                 </configuration>
                 <executions>
@@ -43,43 +44,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.5</version>
-                <configuration>
-                    <workDirectory>target/.imports</workDirectory>
-                    <webappDirectory>src/main/webapp</webappDirectory>
-                    <useCache>false</useCache>
-                    <archive>
-                        <addMavenDescriptor>true</addMavenDescriptor>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                        </manifest>
-                    </archive>
-                    <overlays>
-                        <overlay>
-                            <groupId>jfa-pro</groupId>
-                            <artifactId>jfa-web</artifactId>
-                        </overlay>
-                        <overlay>
-                        </overlay>
-                    </overlays>
-                    <packagingExcludes>
-                        WEB-INF/lib/*.jar
-                    </packagingExcludes>
-
-                    <dependentWarExcludes>
-                        WEB-INF/web.xml,
-                        WEB-INF/lib/*.jar
-                        WEB-INF/lib-provided,
-                        WEB-INF/classes/*.class,
-                        /error.html,
-                        META-INF/maven,
-                        META-INF/MANIFEST.MF
-                    </dependentWarExcludes>
-                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -4,8 +4,8 @@
 
 .checkbox,
 .radio {
-  margin-bottom: 12px;
-  padding-left: 32px;
+  margin-bottom: 0px;
+  padding-left: 0px;
   position: relative;
   transition: color .25s linear;
   font-size: ceil((@component-font-size-base * 0.933)); // ~14px
@@ -23,14 +23,17 @@
     line-height: 20px;
     font-size: 20px;
     cursor: pointer;
+    background: @gray-light;
+    border-radius: 5px;
 
-    .icon-checked {
-      .opacity(0);
-    }
+    /* .icon-checked {
+       /!* .opacity(0);*!/
+       /!* background: #1abc9c;*!/
+     }*/
   }
 }
 
-.checkbox,
+/*.checkbox,
 .radio {
   .icon-checked,
   .icon-unchecked {
@@ -55,15 +58,17 @@
       -moz-osx-font-smoothing: grayscale;
     }
   }
-}
-.checkbox {
+}*/
+
+/*.checkbox {
   .icon-checked:before {
     content: "\e60e";
   }
   .icon-unchecked:before {
     content: "\e60d";
   }
-}
+}*/
+
 .radio {
   .icon-checked:before {
     content: "\e60c";
@@ -79,14 +84,13 @@
   input[type="radio"].custom-radio {
     outline: none !important;
     opacity: 0;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
+    /*position: absolute;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*left: 0;*/
+    /*top: 0;*/
     width: 20px;
     height: 20px;
-
 
     // Alternate States
     // --------------------------------------------------
@@ -140,7 +144,7 @@
       }
     }
 
-    &:indeterminate + .icons {
+    /*&:indeterminate + .icons {
       color: @gray-light;
 
       .icon-unchecked {
@@ -163,7 +167,7 @@
         z-index: 10;
       }
 
-    }
+    }*/
   }
 
   // Alternate Color
@@ -171,7 +175,7 @@
 
   // Primary
 
-  &.primary input[type="checkbox"].custom-checkbox,
+ /* &.primary input[type="checkbox"].custom-checkbox,
   &.primary input[type="radio"].custom-radio {
     & + .icons {
       color: @brand-primary;
@@ -194,11 +198,11 @@
       color: @brand-primary;
     }
 
-  }
+  }*/
 }
 
 // Group Addon
-.radio,
+/*.radio,
 .checkbox {
   .input-group-addon & {
     margin: -2px 0;
@@ -228,15 +232,39 @@
       }
     }
   }
-}
+}*/
 
+/*
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: 10px;
 }
+*/
 
 // Form inline style
 
 .form-inline .checkbox, .form-inline .radio {
-  padding-left: 32px;
+  /*padding-left: 32px;*/
+}
+
+.checkbox.checked {
+  .icons:before {
+    content: "\e013";
+  }
+  .icons {
+    color: #ffffff;
+    background: #1abc9c; // #54a8db;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    padding: 3px 0px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+  }
 }
