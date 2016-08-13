@@ -11,8 +11,16 @@
     <name>home Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+
         <dependency>
-            <groupId>jfa-pro</groupId>
+            <groupId>com.gyex</groupId>
+            <artifactId>common</artifactId>
+            <version>${version}</version>
+            <type>jar</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lscsoft.jfa</groupId>
             <artifactId>jfa-runner</artifactId>
             <version>${jfa.version}</version>
             <type>jar</type>
@@ -26,7 +34,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
                 <configuration>
-                    <mainClass>${start.class}</mainClass>
+                    <mainClass>${website.start.class}</mainClass>
                     <layout>WAR</layout>
                 </configuration>
                 <executions>

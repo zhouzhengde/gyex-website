@@ -4,7 +4,7 @@ import com.gyex.website.entity.User;
 import com.gyex.website.mapper.UserMapper;
 import com.gyex.website.service.UserService;
 import com.gyex.website.util.$;
-import com.jfa.commons.exception.ServiceException;
+import com.lscsoft.jfa.commons.exception.ServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

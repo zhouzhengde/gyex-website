@@ -4,7 +4,7 @@ import com.gyex.website.ApplicationRunner;
 import com.gyex.website.entity.User;
 import com.gyex.website.service.UserService;
 import com.gyex.website.topservice.user.RegisterUserService;
-import com.jfa.commons.util.DateUtils;
+import com.lscsoft.jfa.commons.util.DateUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;

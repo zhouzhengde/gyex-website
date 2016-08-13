@@ -26,19 +26,12 @@
         <module name="common" />
         <module name="home" />
       </profile>
-      <profile default="false" name="Annotation profile for m" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cms" target="1.5" />
       <module name="common" target="1.5" />
-      <module name="gyex-website" target="1.5" />
       <module name="home" target="1.5" />
-      <module name="m" target="1.7" />
+      <module name="website" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,8 +1,7 @@
 package com.gyex.website.entity;
 
 import com.gyex.website.util.$;
-import com.jfa.commons.exception.ServiceException;
-import org.h2.mvstore.Page;
+import com.lscsoft.jfa.commons.exception.ServiceException;
 
 import java.util.List;
 

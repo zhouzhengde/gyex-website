@@ -1,7 +1,7 @@
 package com.gyex.website.service;
 
 import com.gyex.website.entity.User;
-import com.jfa.commons.exception.ServiceException;
+import com.lscsoft.jfa.commons.exception.ServiceException;
 
 import java.util.List;
 

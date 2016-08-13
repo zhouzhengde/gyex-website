@@ -20,7 +20,7 @@
         </dependency>
 
         <dependency>
-            <groupId>jfa-pro</groupId>
+            <groupId>com.lscsoft.jfa</groupId>
             <artifactId>jfa-runner</artifactId>
             <version>${jfa.version}</version>
             <type>jar</type>

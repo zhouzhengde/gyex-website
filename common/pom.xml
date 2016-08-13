@@ -27,9 +27,10 @@
         </dependency>
 
         <dependency>
-            <groupId>jfa-pro</groupId>
+            <groupId>com.lscsoft.jfa</groupId>
             <artifactId>jfa-common</artifactId>
             <version>${jfa.version}</version>
+            <type>jar</type>
         </dependency>
 
         <dependency>

@@ -2,7 +2,7 @@ package com.gyex.website.topservice.content.impl;
 
 import com.gyex.website.entity.Content;
 import com.gyex.website.topservice.content.NewContentService;
-import com.jfa.commons.exception.ServiceException;
+import com.lscsoft.jfa.commons.exception.ServiceException;
 import org.springframework.stereotype.Service;
 
 /**

@@ -6,8 +6,8 @@ import com.gyex.website.service.UserService;
 import com.gyex.website.topservice.user.PagingUserService;
 import com.gyex.website.topservice.user.RegisterUserService;
 import com.gyex.website.util.$;
-import com.jfa.commons.common.BaseController;
-import com.jfa.commons.exception.ServiceException;
+import com.lscsoft.jfa.commons.common.BaseController;
+import com.lscsoft.jfa.commons.exception.ServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
