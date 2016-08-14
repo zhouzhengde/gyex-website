@@ -1,0 +1,64 @@
+<div class="pagination-container">
+    <div class="pagination tips">
+        <ul>
+            <li>
+                <span>
+                    当前页/总页数：<span ng-bind="ngPager.pageIndex"></span>/<span ng-bind="ngPager.last"></span>
+                </span>
+            </li>
+            <li>
+                <span>
+                    总数：<span ng-bind="ngPager.total"></span> 条
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div class="pagination float-right">
+        <ul>
+            <li ng-if="ngPager.pageIndex > 1" title="第一页" ng-click="doGo(1);"><span
+                    class="glyphicon glyphicon-fast-backward"></span></li>
+            <li ng-if="ngPager.pageIndex <= 1" title="第一页" class="disabled"><span
+                    class="glyphicon glyphicon-fast-backward"></span></li>
+            <li ng-if="ngPager.pageIndex > 1" title="上一页" ng-click="doGo(ngPager.pageIndex - 1);">
+                <span class="glyphicon glyphicon-step-backward"></span>
+            </li>
+            <li ng-if="ngPager.pageIndex <= 1" title="上一页" class="disabled">
+                <span class="glyphicon glyphicon-step-backward"></span>
+            </li>
+
+            <li ng-if="pages[0] > ngPager.first" title="向前更多..." ng-click="calcPages(pages[0] - 1);">
+                <span>...</span>
+            </li>
+
+            <li ng-repeat="page in pages" ng-class="{'active': page == ngPager.pageIndex}" ng-click="doGo(page);">
+                <span ng-bind="page">
+                </span>
+            </li>
+
+            <li ng-if="pages[4] < ngPager.last" title="向后更多..." ng-click="calcPages(pages[4] + 1);">
+                <span>...</span>
+            </li>
+            <li ng-if="ngPager.pageIndex < ngPager.last" title="下一页" ng-click="doGo(ngPager.pageIndex + 1);"><span
+                    class="glyphicon glyphicon-step-forward"></span></li>
+            <li ng-if="ngPager.pageIndex >= ngPager.last" title="下一页" class="disabled"><span
+                    class="glyphicon glyphicon-step-forward"></span></li>
+            <li ng-if="ngPager.pageIndex < ngPager.last" title="最后一页" ng-click="doGo(ngPager.last);"><span
+                    class="glyphicon glyphicon-fast-forward"></span></li>
+            <li ng-if="ngPager.pageIndex >= ngPager.last" title="最后一页" class="disabled"><span
+                    class="glyphicon glyphicon-fast-forward"></span></li>
+
+            <li>
+                <span>
+                    跳转第
+                    <input ng-model="inputIndex" type="text" size="5">
+                    页
+                </span>
+            </li>
+            <li title="跳转">
+                <span href="" ng-click="doGo();">
+                    Go
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gyex.website.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.gyex.website.entity.User">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="realname" property="realname" jdbcType="VARCHAR"/>
+        <!--出于安全考虑 -->
+        <!-- <result column="password" property="password" jdbcType="VARCHAR"/>-->
+        <result column="gender" property="gender" jdbcType="INTEGER"/>
+        <result column="birthday" property="birthday" jdbcType="DATE"/>
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP"/>
+        <result column="create_by" property="createBy" jdbcType="VARCHAR"/>
+        <result column="update_date" property="updateDate" jdbcType="TIMESTAMP"/>
+        <result column="update_by" property="updateBy" jdbcType="VARCHAR"/>
+        <result column="is_disabled" property="isDisabled" jdbcType="BIT"/>
+        <result column="is_del" property="isDel" jdbcType="BIT"/>
+    </resultMap>
+    <resultMap id="ResultMapWithBLOBs" type="com.gyex.website.entity.User" extends="BaseResultMap">
+        <result column="contact_info" property="contactInfo" jdbcType="LONGVARCHAR"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, username, realname, password, gender, birthday, create_date, create_by, update_date,
+        update_by, is_disabled, is_del
+    </sql>
+    <sql id="Blob_Column_List">
+        contact_info
+    </sql>
+    <select id="selectOneBy" resultMap="ResultMapWithBLOBs" parameterType="com.gyex.website.entity.User">
+        select
+        <include refid="Base_Column_List"/>
+        ,
+        <include refid="Blob_Column_List"/>
+        from web_user
+        <where>
+            1 = 1
+            AND is_del = 0
+            <if test="id != null">
+                AND id = #{id,jdbcType=INTEGER}
+            </if>
+            <if test="username != null">
+                AND username = #{username,jdbcType=INTEGER}
+            </if>
+            <if test="password != null">
+                AND password = password(#{password,jdbcType=INTEGER})
+            </if>
+        </where>
+        LIMIT 1
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        update web_user
+        SET is_del = 1
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <delete id="deleteRealByPrimaryKey" parameterType="java.lang.Integer">
+          DELETE FROM web_user
+          WHERE id = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.gyex.website.entity.User">
+        insert into web_user (id, username, realname,
+        password, gender, birthday,
+        create_date, create_by, update_date,
+        update_by, is_disabled, is_del,
+        contact_info)
+        values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{realname,jdbcType=VARCHAR},
+        password(#{password,jdbcType=VARCHAR}), #{gender,jdbcType=INTEGER}, #{birthday,jdbcType=DATE},
+        #{createDate,jdbcType=TIMESTAMP}, #{createBy,jdbcType=VARCHAR}, #{updateDate,jdbcType=TIMESTAMP},
+        #{updateBy,jdbcType=VARCHAR}, #{isDisabled,jdbcType=BIT}, #{isDel,jdbcType=BIT},
+        #{contactInfo,jdbcType=LONGVARCHAR})
+    </insert>
+    <insert id="insertSelective" parameterType="com.gyex.website.entity.User">
+        insert into web_user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="username != null">
+                username,
+            </if>
+            <if test="realname != null">
+                realname,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="gender != null">
+                gender,
+            </if>
+            <if test="birthday != null">
+                birthday,
+            </if>
+            <if test="createDate != null">
+                create_date,
+            </if>
+            <if test="createBy != null">
+                create_by,
+            </if>
+            <if test="updateDate != null">
+                update_date,
+            </if>
+            <if test="updateBy != null">
+                update_by,
+            </if>
+            <if test="isDisabled != null">
+                is_disabled,
+            </if>
+            <if test="isDel != null">
+                is_del,
+            </if>
+            <if test="contactInfo != null">
+                contact_info,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="realname != null">
+                #{realname,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                password(#{password,jdbcType=VARCHAR}),
+            </if>
+            <if test="gender != null">
+                #{gender,jdbcType=INTEGER},
+            </if>
+            <if test="birthday != null">
+                #{birthday,jdbcType=DATE},
+            </if>
+            <if test="createDate != null">
+                #{createDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createBy != null">
+                #{createBy,jdbcType=VARCHAR},
+            </if>
+            <if test="updateDate != null">
+                #{updateDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateBy != null">
+                #{updateBy,jdbcType=VARCHAR},
+            </if>
+            <if test="isDisabled != null">
+                #{isDisabled,jdbcType=BIT},
+            </if>
+            <if test="isDel != null">
+                #{isDel,jdbcType=BIT},
+            </if>
+            <if test="contactInfo != null">
+                #{contactInfo,jdbcType=LONGVARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.gyex.website.entity.User">
+        UPDATE web_user
+        SET username = #{username,jdbcType=VARCHAR},
+        realname = #{realname,jdbcType=VARCHAR},
+        password = password( #{password,jdbcType=VARCHAR}),
+        gender = #{gender,jdbcType=INTEGER},
+        birthday = #{birthday,jdbcType=DATE},
+        update_date = #{updateDate,jdbcType=TIMESTAMP},
+        update_by = #{updateBy,jdbcType=VARCHAR},
+        is_disabled = #{isDisabled,jdbcType=BIT},
+        is_del = #{isDel,jdbcType=BIT},
+        contact_info = #{contactInfo,jdbcType=LONGVARCHAR}
+        WHERE id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.gyex.website.entity.User">
+        update web_user
+        <set>
+            <if test="username != null">
+                username = #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="realname != null">
+                realname = #{realname,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                password = password(#{password,jdbcType=VARCHAR}),
+            </if>
+            <if test="gender != null">
+                gender = #{gender,jdbcType=INTEGER},
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday,jdbcType=DATE},
+            </if>
+            <if test="createDate != null">
+                create_date = #{createDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createBy != null">
+                create_by = #{createBy,jdbcType=VARCHAR},
+            </if>
+            <if test="updateDate != null">
+                update_date = #{updateDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateBy != null">
+                update_by = #{updateBy,jdbcType=VARCHAR},
+            </if>
+            <if test="isDisabled != null">
+                is_disabled = #{isDisabled,jdbcType=BIT},
+            </if>
+            <if test="isDel != null">
+                is_del = #{isDel,jdbcType=BIT},
+            </if>
+            <if test="contactInfo != null">
+                contact_info = #{contactInfo,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <!-- 列表查询 -->
+    <select id="selectListBy" resultMap="ResultMapWithBLOBs" parameterType="com.gyex.website.entity.User">
+        SELECT
+        <include refid="Base_Column_List"/>
+        ,
+        <include refid="Blob_Column_List"/>
+        FROM web_user
+        <where>
+            1 = 1
+            AND is_del = 0
+            <if test="username != null and username != ''">
+                AND username LIKE #{username}
+            </if>
+            <if test="realname != null and realname != ''">
+                AND realname LIKE #{realname}
+            </if>
+            <if test="password != null">
+                AND password = password(#{password})
+            </if>
+        </where>
+        ORDER BY create_date DESC
+        LIMIT #{startIndex},#{pageSize}
+    </select>
+
+    <!-- 为查询计数 -->
+    <select id="count" resultType="int" parameterType="com.gyex.website.entity.User">
+        SELECT
+        COUNT(*)
+        FROM web_user
+        <where>
+            1 = 1
+            AND is_del = 0
+            <if test="username != null and username != ''">
+                AND username LIKE #{username}
+            </if>
+            <if test="realname != null and realname != ''">
+                AND realname LIKE #{realname}
+            </if>
+            <if test="password != null">
+                AND password = password(#{password})
+            </if>
+        </where>
+    </select>
+
+</mapper>

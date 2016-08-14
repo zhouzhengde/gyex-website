@@ -1,0 +1,296 @@
+/**--S ui box style **/
+.theme-default .box-container {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+.theme-default .box-group {
+  width: 100%;
+  height: auto;
+  padding: 7.5px 0px;
+}
+.theme-default .box {
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.theme-default .box-container .box-group:first-child {
+  padding-top: 0px;
+}
+.theme-default .box-container .box-group:last-child {
+  padding-bottom: 0px;
+}
+.theme-default .box-container .box-group .box:nth-child(even) {
+  margin-left: 1%;
+}
+.theme-default .box-container .box-group .box:nth-child(2n + 3) {
+  margin-left: 1%;
+}
+/**--E ui box style **/
+/**--S ui input style **/
+.theme-default .input .input-lbl {
+  width: 150px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 2px;
+}
+.theme-default .input .input-area .default {
+  color: #cccccc;
+  border: 1px solid #cccccc;
+}
+/**--E ui input style **/
+div,
+section,
+article,
+head,
+footer,
+td,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+span,
+label {
+  font-family: 微软雅黑 Arial;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+/**--S border style **/
+.theme-default .border-solid-1px {
+  border: 1px solid #c3c3c3;
+}
+.theme-default .border-dotted-1px {
+  border: 1px dotted #c3c3c3;
+}
+.theme-default .border-top-solid-1px {
+  border-top: 1px solid #c3c3c3;
+}
+.theme-default .border-top-dotted-1px {
+  border-top: 1px dotted #c3c3c3;
+}
+.theme-default .border-left-solid-1px {
+  border-left: 1px solid #c3c3c3;
+}
+.theme-default .border-left-dotted-1px {
+  border-left: 1px dotted #c3c3c3;
+}
+.theme-default .border-right-solid-1px {
+  border-top: 1px solid #c3c3c3;
+}
+.theme-default .border-right-dotted-1px {
+  border-top: 1px dotted #c3c3c3;
+}
+.theme-default .border-bottom-solid-1px {
+  border-top: 1px solid #c3c3c3;
+}
+.theme-default .border-bottom-dotted-1px {
+  border-top: 1px dotted #c3c3c3;
+}
+.theme-default .border-solid-2px {
+  border: 2px solid #c3c3c3;
+}
+.theme-default .border-dotted-2px {
+  border: 2px dotted #c3c3c3;
+}
+.theme-default .border-top-solid-2px {
+  border-top: 2px solid #c3c3c3;
+}
+.theme-default .border-top-dotted-2px {
+  border-top: 2px dotted #c3c3c3;
+}
+.theme-default .border-left-solid-2px {
+  border-left: 2px solid #c3c3c3;
+}
+.theme-default .border-left-dotted-2px {
+  border-left: 2px dotted #c3c3c3;
+}
+.theme-default .border-right-solid-2px {
+  border-top: 2px solid #c3c3c3;
+}
+.theme-default .border-right-dotted-2px {
+  border-top: 2px dotted #c3c3c3;
+}
+.theme-default .border-bottom-solid-2px {
+  border-top: 2px solid #c3c3c3;
+}
+.theme-default .border-bottom-dotted-2px {
+  border-top: 2px dotted #c3c3c3;
+}
+.theme-default .border-solid-3px {
+  border: 3px solid #c3c3c3;
+}
+.theme-default .border-dotted-3px {
+  border: 3px dotted #c3c3c3;
+}
+.theme-default .border-top-solid-3px {
+  border-top: 3px solid #c3c3c3;
+}
+.theme-default .border-top-dotted-3px {
+  border-top: 3px dotted #c3c3c3;
+}
+.theme-default .border-left-solid-3px {
+  border-left: 3px solid #c3c3c3;
+}
+.theme-default .border-left-dotted-3px {
+  border-left: 3px dotted #c3c3c3;
+}
+.theme-default .border-right-solid-3px {
+  border-top: 3px solid #c3c3c3;
+}
+.theme-default .border-right-dotted-3px {
+  border-top: 3px dotted #c3c3c3;
+}
+.theme-default .border-bottom-solid-3px {
+  border-top: 3px solid #c3c3c3;
+}
+.theme-default .border-bottom-dotted-3px {
+  border-top: 3px dotted #c3c3c3;
+}
+.theme-default .border-solid-4px {
+  border: 4px solid #c3c3c3;
+}
+.theme-default .border-dotted-4px {
+  border: 4px dotted #c3c3c3;
+}
+.theme-default .border-top-solid-4px {
+  border-top: 4px solid #c3c3c3;
+}
+.theme-default .border-top-dotted-4px {
+  border-top: 4px dotted #c3c3c3;
+}
+.theme-default .border-left-solid-4px {
+  border-left: 4px solid #c3c3c3;
+}
+.theme-default .border-left-dotted-4px {
+  border-left: 4px dotted #c3c3c3;
+}
+.theme-default .border-right-solid-4px {
+  border-top: 4px solid #c3c3c3;
+}
+.theme-default .border-right-dotted-4px {
+  border-top: 4px dotted #c3c3c3;
+}
+.theme-default .border-bottom-solid-4px {
+  border-top: 4px solid #c3c3c3;
+}
+.theme-default .border-bottom-dotted-4px {
+  border-top: 4px dotted #c3c3c3;
+}
+.theme-default .border-solid-5px {
+  border: 5px solid #c3c3c3;
+}
+.theme-default .border-dotted-5px {
+  border: 5px dotted #c3c3c3;
+}
+.theme-default .border-top-solid-5px {
+  border-top: 5px solid #c3c3c3;
+}
+.theme-default .border-top-dotted-5px {
+  border-top: 5px dotted #c3c3c3;
+}
+.theme-default .border-left-solid-5px {
+  border-left: 5px solid #c3c3c3;
+}
+.theme-default .border-left-dotted-5px {
+  border-left: 5px dotted #c3c3c3;
+}
+.theme-default .border-right-solid-5px {
+  border-top: 5px solid #c3c3c3;
+}
+.theme-default .border-right-dotted-5px {
+  border-top: 5px dotted #c3c3c3;
+}
+.theme-default .border-bottom-solid-5px {
+  border-top: 5px solid #c3c3c3;
+}
+.theme-default .border-bottom-dotted-5px {
+  border-top: 5px dotted #c3c3c3;
+}
+.theme-default .bd {
+  border: 1px solid #c3c3c3;
+}
+.theme-default .bt {
+  border-top: 1px solid #c3c3c3;
+}
+.theme-default .bl {
+  border-left: 1px solid #c3c3c3;
+}
+.theme-default .br {
+  border-right: 1px solid #c3c3c3;
+}
+.theme-default .bb {
+  border-bottom: 1px solid #c3c3c3;
+}
+/**--E border style **/
+/**--S border radius */
+.radius-1 {
+  border-radius: 1px;
+}
+.radius-2 {
+  border-radius: 2px;
+}
+.radius-3 {
+  border-radius: 3px;
+}
+.radius-4 {
+  border-radius: 4px;
+}
+.radius-5 {
+  border-radius: 5px;
+}
+.radius-6 {
+  border-radius: 6px;
+}
+.radius-7 {
+  border-radius: 7px;
+}
+.radius-8 {
+  border-radius: 8px;
+}
+.radius-9 {
+  border-radius: 9px;
+}
+.radius-10 {
+  border-radius: 10px;
+}
+/**--E border radius */
+/**--S background color */
+.theme-default .bg-01 {
+  background: #8654ff;
+}
+.theme-default .bg-02 {
+  background: #46baff;
+}
+.theme-default .bg-03 {
+  background: #ffffff;
+}
+.theme-default .bg-04 {
+  background: #8654ff;
+}
+.theme-default .bg-05 {
+  background: #c0d8f3;
+}
+.theme-default .btn-01 {
+  background: #6feeee;
+  color: #000000;
+}
+.theme-default .btn-02 {
+  background: #6feeee;
+  color: #000000;
+}
+.theme-default .btn-03 {
+  background: #6feeee;
+  color: #000000;
+}
+.theme-default .btn-04 {
+  background: #6feeee;
+  color: #000000;
+}
+.theme-default .btn-05 {
+  background: #6feeee;
+  color: #000000;
+}
+/**--E background color */
