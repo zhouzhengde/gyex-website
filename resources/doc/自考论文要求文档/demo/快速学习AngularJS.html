@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script>
+	
+	var md = angular.module("myApp",[]);	
+	md.controller("FirstCtrl", function($scope){
+		
+		$scope.user = {};
+		$scope.user.userName = 'bond';
+		$scope.user.age = 26;
+	});
+
+</script>
+
+<title>计算机及用 毕业设计 Bond(China)</title>
+</head>
+
+<body ng-controller="FirstCtrl">
+	
+   	<div style="text-algin:center;margin:0px auto;width:700px">
+	
+        <input type="text"  ng-model="user.userName" /><span>userName: {{user.userName}}</span><br/>
+        <input type="text"  ng-model="user.age" /><span>userAge: {{user.age}}</span>      
+       
+    </div>
+</body>
+</html>
