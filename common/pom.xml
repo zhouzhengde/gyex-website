@@ -27,7 +27,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.lscsoft.jfa</groupId>
+            <groupId>com.lsc-soft</groupId>
             <artifactId>jfa-common</artifactId>
             <version>${jfa.version}</version>
             <type>jar</type>

@@ -9,9 +9,9 @@
     </modules>
 
     <parent>
-        <groupId>com.lscsoft.jfa</groupId>
+        <groupId>com.lsc-soft</groupId>
         <artifactId>jfa</artifactId>
-        <version>1.0.0.ALPHA</version>
+        <version>1.0.0.SNAPSHOTS</version>
     </parent>
 
 
