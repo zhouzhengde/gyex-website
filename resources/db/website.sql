@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : local
+Source Server         : local 3306
 Source Server Version : 50543
 Source Host           : localhost:3306
 Source Database       : website
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50543
 File Encoding         : 65001
 
-Date: 2016-04-23 12:27:54
+Date: 2016-08-19 15:15:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -59,8 +59,8 @@ CREATE TABLE `web_group_role` (
   `update_by` varchar(64) DEFAULT NULL COMMENT '更新者',
   PRIMARY KEY (`role_id`,`group_id`),
   KEY `FK_WGR_GROUP_ID` (`group_id`),
-  CONSTRAINT `FK_WGR_ROLE_ID` FOREIGN KEY (`role_id`) REFERENCES `web_role` (`id`),
-  CONSTRAINT `FK_WGR_GROUP_ID` FOREIGN KEY (`group_id`) REFERENCES `web_group` (`id`)
+  CONSTRAINT `FK_WGR_GROUP_ID` FOREIGN KEY (`group_id`) REFERENCES `web_group` (`id`),
+  CONSTRAINT `FK_WGR_ROLE_ID` FOREIGN KEY (`role_id`) REFERENCES `web_role` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
@@ -137,8 +137,8 @@ CREATE TABLE `web_role_menu` (
   `update_by` varchar(64) DEFAULT NULL COMMENT '更新者',
   PRIMARY KEY (`role_id`,`menu_id`),
   KEY `FK_WRM_MENU_ID` (`menu_id`),
-  CONSTRAINT `FK_WRM_ROLE_ID` FOREIGN KEY (`role_id`) REFERENCES `web_role` (`id`),
-  CONSTRAINT `FK_WRM_MENU_ID` FOREIGN KEY (`menu_id`) REFERENCES `web_menu` (`id`)
+  CONSTRAINT `FK_WRM_MENU_ID` FOREIGN KEY (`menu_id`) REFERENCES `web_menu` (`id`),
+  CONSTRAINT `FK_WRM_ROLE_ID` FOREIGN KEY (`role_id`) REFERENCES `web_role` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
@@ -156,9 +156,9 @@ CREATE TABLE `web_role_resource_func` (
   PRIMARY KEY (`role_id`,`resource_id`,`function_id`),
   KEY `FK_WRRF_RESOURCE_ID` (`resource_id`),
   KEY `FK_WRRF_FUNCTION_ID` (`function_id`),
-  CONSTRAINT `FK_WRRF_ROLE_ID` FOREIGN KEY (`role_id`) REFERENCES `web_role` (`id`),
+  CONSTRAINT `FK_WRRF_FUNCTION_ID` FOREIGN KEY (`function_id`) REFERENCES `web_function` (`id`),
   CONSTRAINT `FK_WRRF_RESOURCE_ID` FOREIGN KEY (`resource_id`) REFERENCES `web_resource` (`id`),
-  CONSTRAINT `FK_WRRF_FUNCTION_ID` FOREIGN KEY (`function_id`) REFERENCES `web_function` (`id`)
+  CONSTRAINT `FK_WRRF_ROLE_ID` FOREIGN KEY (`role_id`) REFERENCES `web_role` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
@@ -168,14 +168,19 @@ DROP TABLE IF EXISTS `web_user`;
 CREATE TABLE `web_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `username` varchar(64) DEFAULT NULL COMMENT '用户名',
+  `realname` varchar(255) DEFAULT NULL,
   `password` varchar(64) DEFAULT NULL COMMENT '密码',
+  `gender` tinyint(2) DEFAULT NULL,
+  `birthday` date DEFAULT NULL,
   `contact_info` text COMMENT '联系信息，JSON数据',
+  `is_disabled` tinyint(2) DEFAULT NULL,
+  `is_del` tinyint(1) DEFAULT NULL,
   `create_date` datetime DEFAULT NULL COMMENT '创建日期',
   `create_by` varchar(64) DEFAULT NULL COMMENT '创建者',
   `update_date` datetime DEFAULT NULL COMMENT '更新日期',
   `update_by` varchar(64) DEFAULT NULL COMMENT '更新者',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Table structure for web_user_group
@@ -190,7 +195,7 @@ CREATE TABLE `web_user_group` (
   `update_by` varchar(64) DEFAULT NULL COMMENT '更新者',
   PRIMARY KEY (`user_id`,`group_id`),
   KEY `FK_WUG_GROUP_ID` (`group_id`),
-  CONSTRAINT `FK_WUG_USER_ID` FOREIGN KEY (`user_id`) REFERENCES `web_user` (`id`),
-  CONSTRAINT `FK_WUG_GROUP_ID` FOREIGN KEY (`group_id`) REFERENCES `web_group` (`id`)
+  CONSTRAINT `FK_WUG_GROUP_ID` FOREIGN KEY (`group_id`) REFERENCES `web_group` (`id`),
+  CONSTRAINT `FK_WUG_USER_ID` FOREIGN KEY (`user_id`) REFERENCES `web_user` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
+SET FOREIGN_KEY_CHECKS=1;

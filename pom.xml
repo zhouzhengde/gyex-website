@@ -11,7 +11,7 @@
     <parent>
         <groupId>com.lsc-soft</groupId>
         <artifactId>jfa</artifactId>
-        <version>1.0.0.SNAPSHOTS</version>
+        <version>1.0.0</version>
     </parent>
 
 
