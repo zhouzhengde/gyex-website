@@ -2,380 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f816e72-5439-404f-96f0-0f918a09dfaf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lsc_soft_jfa_common_1_0_0_SNAPSHOTS.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lsc_soft_jfa_runner_1_0_0_SNAPSHOTS.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/~WRL0001.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/~WRL0002.tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/~$中山大学论文.doc" afterPath="$PROJECT_DIR$/resources/doc/自考论文要求文档/~$中山大学论文.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/中山大学论文.doc" afterPath="$PROJECT_DIR$/resources/doc/自考论文要求文档/中山大学论文.doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/cms.iml" afterPath="$PROJECT_DIR$/cms/cms.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cms/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/css/common.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/css/layout-default.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/css/layout-default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/css/theme-default.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/css/theme-default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-animate.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-aria.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-aria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-cookies.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-cookies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-loader.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-loader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-message-format.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-message-format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-messages.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-mocks.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-mocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-parse-ext.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-parse-ext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-resource.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-route.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-sanitize.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-sanitize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-touch.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular-touch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/uibootstrap/ui-bootstrap-csp.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/uibootstrap/ui-bootstrap-csp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/uibootstrap/ui-bootstrap-tpls.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/uibootstrap/ui-bootstrap-tpls.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/uibootstrap/ui-bootstrap.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular/uibootstrap/ui-bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/media.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/normalize.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/print.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/responsive-embed.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/responsive-embed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/theme.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csscomb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/table-row.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-embed.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/bootstrap/less/wells.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/flat-ui.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/flat-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/modules/print.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/modules/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/spaces.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/spaces.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/flat-ui-icons-regular.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/flat-ui-icons-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/selection.json" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/selection.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-black.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-black.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bold.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bold.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bolditalic.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bolditalic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-italic.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-italic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-light.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-light.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-regular.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/clocks.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/clocks.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/loop.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/loop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/ribbon.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/ribbon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.min.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/html5shiv.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/respond.min.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/video.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/.csscomb.json" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/.csscomb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/.csslintrc" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/.csslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/flat-ui.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/flat-ui.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-clip.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-clip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/forms.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/grid.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/image.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/navbar-vertical-align.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/navbar-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pallets.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pallets.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/resize.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/select.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/select.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/size.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/switches.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/switches.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/button-groups.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/code.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/dropdowns.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/footer.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/glyphicons.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/input-groups.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/local-fonts.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/local-fonts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/login.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/login.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/navbar.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pager.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pagination.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/palette.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/palette.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/print.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/progress-bars.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/radiocheck.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/radiocheck.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/scaffolding.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/select.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/select.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/share.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/share.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/slider.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/slider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/switch.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/switch.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tagsinput.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tagsinput.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/thumbnails.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tiles.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tiles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/todo-list.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/todo-list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tooltip.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/type.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/typeahead.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/typeahead.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/video.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/modules/video.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/spaces.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/spaces.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/variables.less" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/flatui/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/bootstrap-table/bootstrap-table.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/bootstrap-table/bootstrap-table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/bootstrap-table/bootstrap-table.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/bootstrap-table/bootstrap-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/treeview/css/bootstrap-treeview.css" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/treeview/css/bootstrap-treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/treeview/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/treeview/fonts/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/treeview/js/bootstrap-treeview.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/jquery/treeview/js/bootstrap-treeview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/text.js" afterPath="$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/text.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/common.iml" afterPath="$PROJECT_DIR$/common/common.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gyex-website.iml" afterPath="$PROJECT_DIR$/gyex-website.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/home.iml" afterPath="$PROJECT_DIR$/home/home.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/css/common.css" afterPath="$PROJECT_DIR$/home/src/main/webapp/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/css/theme.css" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csscomb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/.csslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/reset-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/table-row.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-embed.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/bootstrap/less/wells.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/flat-ui-icons-regular.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/flat-ui-icons-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/selection.json" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/glyphicons/selection.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-black.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-black.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bold.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bold.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bolditalic.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-bolditalic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-italic.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-italic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-light.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-light.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-regular.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/fonts/lato/lato-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/clocks.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/clocks.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/loop.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/loop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/ribbon.svg" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/img/icons/svg/ribbon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.min.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/flat-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/html5shiv.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/respond.min.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/video.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/js/vendor/video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/.csscomb.json" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/.csscomb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/.csslintrc" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/.csslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/flat-ui.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/flat-ui.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-clip.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-clip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/forms.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/grid.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/image.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/navbar-vertical-align.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/navbar-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pallets.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/pallets.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/resize.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/select.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/select.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/size.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/switches.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/switches.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/button-groups.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/buttons.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/code.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/dropdowns.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/footer.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/forms.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/glyphicons.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/input-groups.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/local-fonts.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/local-fonts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/login.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/login.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/navbar.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pager.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pagination.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/palette.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/palette.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/print.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/progress-bars.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/radiocheck.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/radiocheck.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/scaffolding.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/select.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/select.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/share.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/share.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/slider.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/slider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/switch.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/switch.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tagsinput.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tagsinput.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/thumbnails.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tiles.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tiles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/todo-list.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/todo-list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tooltip.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/type.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/typeahead.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/typeahead.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/video.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/modules/video.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/spaces.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/spaces.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/variables.less" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/flatui/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/react/jsx.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/react/jsx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/react/text.js" afterPath="$PROJECT_DIR$/home/src/main/webapp/jzen/scripts/lib/react/text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/db/website.sql" afterPath="$PROJECT_DIR$/resources/db/website.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/demo/无法访问 http___localhost_8080_#_user-list.html" afterPath="$PROJECT_DIR$/resources/doc/自考论文要求文档/demo/无法访问 http___localhost_8080_#_user-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website.iml" afterPath="$PROJECT_DIR$/website.iml" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -402,18 +36,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="722">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <file leaf-file-name="PasswordCoderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/util/PasswordCoderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterUserServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/topservice/user/impl/RegisterUserServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -422,78 +66,73 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="220">
               <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="website.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/db/website.sql">
+      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/service/impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+            <state relative-caret-position="450">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#982#1175#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/main/webapp/menu.html">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/text.js">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="114">
+              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/config.js">
+      <file leaf-file-name="PagingUserServiceImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/topservice/user/impl/PagingUserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4503">
-              <caret line="237" column="3" selection-start-line="237" selection-start-column="3" selection-end-line="237" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".md.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/main/webapp/jzen/scripts/lib/angular-ui/.md.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-add.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/main/webapp/module/system/controllers/user-add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="372">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -530,8 +169,9 @@
         <option value="$PROJECT_DIR$/cms/pom.xml" />
         <option value="$PROJECT_DIR$/cms/src/main/webapp/module/system/services/resource.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/cms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -559,9 +199,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -645,14 +285,6 @@
               <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="自考论文要求文档" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -667,16 +299,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gyex-website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="自考论文要求文档" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,29 +324,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gyex-website" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -740,39 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gyex-website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gyex-website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -780,11 +368,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -798,7 +394,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gyex-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gyex-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -828,7 +488,85 @@
       <recent name="H:\intellij-ws\gyex-website\resources\doc\platform-design" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.testSave">
+    <configuration default="false" name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gyex.website.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gyex.website.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.gyex.website.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceImplTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gyex.website.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gyex.website.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.gyex.website.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PagingUserServiceImplTest.testPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gyex.website.topservice.user.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gyex.website.topservice.user.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.gyex.website.topservice.user.impl.PagingUserServiceImplTest" />
+      <option name="METHOD_NAME" value="testPaging" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1073,6 +811,18 @@
       <listeners />
       <method />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.testSave" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PagingUserServiceImplTest.testPaging" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.testSave" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PagingUserServiceImplTest.testPaging" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1105,28 +855,55 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PagingUserServiceImplTest_testPaging - 2016.08.20 at 01h 23m 44s.xml">
+      <configuration name="PagingUserServiceImplTest.testPaging" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PagingUserServiceImplTest_testPaging - 2016.08.20 at 01h 28m 10s.xml">
+      <configuration name="PagingUserServiceImplTest.testPaging" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2016.08.20 at 01h 20m 59s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testSave - 2016.08.20 at 01h 21m 34s.xml">
+      <configuration name="UserServiceImplTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testSave - 2016.08.20 at 01h 28m 50s.xml">
+      <configuration name="UserServiceImplTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testSave - 2016.08.20 at 01h 29m 57s.xml">
+      <configuration name="UserServiceImplTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testSave - 2016.08.20 at 01h 33m 41s.xml">
+      <configuration name="UserServiceImplTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testSave - 2016.08.20 at 01h 38m 50s.xml">
+      <configuration name="UserServiceImplTest.testSave" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39209402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16452992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3422222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1152,7 +929,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit user module" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/service/impl/UserServiceImplTest.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1160,78 +947,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/topservice/user/RegisterUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/topservice/user/impl/RegisterUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/topservice/user/impl/PagingUserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/topservice/user/impl/RegisterUserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/doc/platform-design/新建位图图像.bmp" />
-    <entry file="file://$PROJECT_DIR$/resources/doc/platform-design/ps.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/doc/platform-design/iAAS.bmp" />
-    <entry file="file://$PROJECT_DIR$/resources/doc/platform-design/paas.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/mapper/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/mapper/ResourceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/mapper/RoleMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1399,33 +1118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/lsc-soft/jfa/1.0.0/jfa-1.0.0.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1434,6 +1130,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2883#2884#0" expanded="false" />
+            <element signature="e#2942#2943#0" expanded="false" />
+            <element signature="e#3082#3083#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3300#3301#0" expanded="false" />
+            <element signature="e#3349#3350#0" expanded="false" />
+            <element signature="e#3520#3521#0" expanded="false" />
+            <element signature="e#3569#3570#0" expanded="false" />
+            <element signature="e#3686#3687#0" expanded="false" />
+            <element signature="e#3733#3734#0" expanded="false" />
+            <element signature="e#3901#3902#0" expanded="false" />
+            <element signature="e#3958#3959#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1463,14 +1174,6 @@
             <element signature="e#596#597#0" expanded="false" />
             <element signature="e#640#641#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,18 +1267,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/resources/db/website.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="1302">
+          <caret line="200" column="25" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/db/website.sql">
+    <entry file="file://$PROJECT_DIR$/home/home.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+        <state relative-caret-position="1957">
+          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/ApplicationRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/config/DatasourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/topservice/user/impl/PagingUserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gyex/website/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#982#1175#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/util/PasswordCoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/gyex/website/topservice/user/impl/RegisterUserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

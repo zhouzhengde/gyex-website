@@ -34,7 +34,7 @@
         from web_user
         <where>
             1 = 1
-            AND is_del = 0
+            AND (is_del = 0 OR is_del IS NULL)
             <if test="id != null">
                 AND id = #{id,jdbcType=INTEGER}
             </if>

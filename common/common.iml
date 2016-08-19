@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Maven: com.lsc-soft:jfa-data:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.lsc-soft:jfa-common:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.lsc-soft:jfa-runner:1.0.0" level="project" />
