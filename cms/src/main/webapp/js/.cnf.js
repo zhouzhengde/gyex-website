@@ -13,14 +13,10 @@ define(['app'], function (app) {
         {
             name: 'welcome',
             path: '!module/welcome'
-        }/*,
+        },
          {
-         name: 'content-mgt',
-         path: '!module/content'
-         },
-         {
-         name: 'log-mgt',
-         path: '!module/log'
-         }*/
+         name: 'entry',
+         path: '!module/entry'
+         }
     ];
 });

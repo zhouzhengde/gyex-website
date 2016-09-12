@@ -25,20 +25,7 @@ define(function () {
                     "href": "#/resource-list"
                 }
             ]
-        },
-        {
-            "text": "内容管理",
-            "nodes": [
-                {
-                    "text": "首页",
-                    "href": "#/home-mgt"
-                },
-                {
-                    "text": "关于我们",
-                    "href": "#/aboutus-mgt"
-                }
-            ]
-        }, {
+        },{
             "text": "日志管理",
             "nodes": [
                 {
@@ -46,7 +33,7 @@ define(function () {
                     "href": "#/log-system"
                 },
                 {
-                    "text": "审讯日志",
+                    "text": "审计日志",
                     "href": "#/log-audit"
                 }
             ]

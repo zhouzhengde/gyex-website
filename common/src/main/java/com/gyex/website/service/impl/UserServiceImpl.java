@@ -70,7 +70,7 @@ public class UserServiceImpl implements UserService {
         if (isCover) {
             return userMapper.updateByPrimaryKey(user);
         } else {
-            return userMapper.updateByPrimaryKey(user);
+            return userMapper.updateByPrimaryKeySelective(user);
         }
     }
 
