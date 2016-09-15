@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f816e72-5439-404f-96f0-0f918a09dfaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/中山大学论文.doc" afterPath="$PROJECT_DIR$/resources/doc/自考论文要求文档/中山大学论文.doc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/doc/自考论文要求文档/自考论文要求文档.zip" afterPath="" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,7 +110,7 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/gyex/website/cms/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="-175">
               <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1004,7 +1004,7 @@
       <workItem from="1473576576976" duration="1715000" />
       <workItem from="1473595979957" duration="4482000" />
       <workItem from="1473781758872" duration="2018000" />
-      <workItem from="1473949229180" duration="667000" />
+      <workItem from="1473949229180" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="commit user module">
       <created>1471114293338</created>
@@ -1050,7 +1050,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11457000" />
+    <option name="totallyTimeSpent" value="11773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1502,7 +1502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/gyex/website/cms/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="-175">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
