@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="cms" />
         <module name="common" />
+        <module name="home" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

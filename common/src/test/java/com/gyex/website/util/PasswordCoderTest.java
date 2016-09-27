@@ -1,5 +1,6 @@
 package com.gyex.website.util;
 
+import com.lscsoft.jfa.commons.util.PasswordCoder;
 import org.junit.Assert;
 import org.junit.Test;
 

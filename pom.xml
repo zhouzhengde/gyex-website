@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <!--<module>home</module>-->
+        <module>home</module>
         <module>cms</module>
         <module>common</module>
     </modules>
@@ -33,6 +33,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <version>${spring.boot.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
         </dependency>
 
     </dependencies>

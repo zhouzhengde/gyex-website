@@ -4,4 +4,10 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <resource-env-ref>
+    <resource-env-ref-name>concurrent/executor</resource-env-ref-name>
+    <resource-env-ref-type>javax.enterprise.concurrent.ManagedExecutorService</resource-env-ref-type>
+  </resource-env-ref>
+  
 </web-app>

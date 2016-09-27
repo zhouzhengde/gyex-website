@@ -1,6 +1,6 @@
 package com.gyex.website.entity;
 
-import com.gyex.website.util.PasswordCoder;
+import com.lscsoft.jfa.commons.util.PasswordCoder;
 
 import java.util.Date;
 
