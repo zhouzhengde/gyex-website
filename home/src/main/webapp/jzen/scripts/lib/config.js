@@ -38,6 +38,7 @@ require.config({
         'validator': 'jquery/validator/jquery.validationEngine',
         'validator-en': 'jquery/validator/languages/jquery.validationEngine-en',
         'validator-zh_CN': 'jquery/validator/languages/jquery.validationEngine-zh_CN',
+        'fullpage': 'jquery/fullpage/jquery.fullpage',
         'raphael': 'raphael/raphael-min',
         'underscore': 'util/underscore',
         'control': 'util/control',
@@ -71,6 +72,7 @@ require.config({
                 'css!../../../css/common',
                 'css!../../../css/function',
                 'jquery',
+                'fullpage',
                 'bootstrap'
             ]
         },
@@ -78,10 +80,16 @@ require.config({
             'deps': [
                 'jquery',
                 //'style',
+                'fullpage',
                 'css!../lib/bootstrap/css/bootstrap.min',
                 //'css!../lib/flatui/css/mixins',
                 'css!../../../css/common',
                 'css!../../../css/function',
+            ]
+        },
+        'fullpage' :{
+            'deps':[
+                'css!../lib/jquery/fullpage/jquery.fullpage'
             ]
         },
         'icheck': {

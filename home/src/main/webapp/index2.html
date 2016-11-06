@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (c) 2015. Bond(China), java freestyle app
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height,initial-scale=1.0">
+    <script src="/jzen/scripts/lib/require.js" data-main="/jzen/scripts/lib/config.js?v=1.0.0"
+            data-debug="false"></script>
+    <title>小猪工作室</title>
+
+
+</head>
+<body style="width: 100% !important;">
+
+<div class="ui-layout-north header" ng-include="'header.html?v=1'" ng-controller="HeaderCtrl"  style="position: absolute;z-index: 9999">
+</div>
+
+<!--<ul id="menu" style="position: absolute;z-index: 9999">
+    <li data-menuanchor="home"> <a href="#home">首页</a></li>
+    <li data-menuanchor="express"><a href="#express">寄快递</a></li>
+</ul>-->
+
+
+<div id="fullpage">
+    <div class="section active" id="home">
+
+    </div>
+    <div class="section" id="express">
+        <div class="slide ">
+        </div>
+        <div class="slide active"><h1>Only text</h1></div>
+        <div class="slide"><h1>And text</h1></div>
+        <div class="slide"><h1>And more text</h1></div>
+    </div>
+</div>
+
+
+
+
+</body>
+
+
+<script>
+
+
+    require(['config'], function (config) {
+
+        require(['jquery', 'fullpage'], function ($, fullpage) {
+
+            $(function () {
+                $('#fullpage').fullpage({
+                    sectionsColor: ['#fff', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                    anchors: ['home', 'express'],
+                    scrollingSpeed: 1000,
+                    navigation: true,
+                    css3:true,
+                    menu: "#menu"
+                });
+            })
+        });
+
+    });
+
+</script>
+
+</html>

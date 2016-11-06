@@ -38,6 +38,7 @@ require.config({
         'validator-en': 'jquery/validator/languages/jquery.validationEngine-en',
         'validator-zh_CN': 'jquery/validator/languages/jquery.validationEngine-zh_CN',
         'treeview': 'jquery/treeview/js/bootstrap-treeview',
+        'fullpage': 'jquery/fullpage/jquery.fullpage',
         'underscore': 'util/underscore',
         'control': 'util/control',
         'model': 'util/model',
@@ -71,6 +72,7 @@ require.config({
                 'css!../../../css/function',
                 'style',
                 'jquery',
+                'fullpage',
                 'jquery-bootstrap',
                 'bootstrap-table'
             ]
@@ -79,10 +81,16 @@ require.config({
             'deps': [
                 'jquery',
                 'style',
+                'fullpage',
                /* 'css!../lib/bootstrap/css/bootstrap',*/
                 'css!../lib/jquery/bootstrap-table/bootstrap-table',
                 'css!../../../css/common',
                 'css!../../../css/function'
+            ]
+        },
+        'fullpage' :{
+            'deps':[
+                'css!../lib/jquery/fullpage/jquery.fullpage'
             ]
         },
         'bootstrap-table': {
